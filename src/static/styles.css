@@ -203,3 +203,43 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+#members-container {
+  margin: 30px 0;
+}
+
+#members-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 15px;
+}
+
+.member-card {
+  background-color: white;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;
+}
+
+.member-info strong {
+  display: block;
+  margin-bottom: 10px;
+  color: #1a237e;
+  font-size: 16px;
+}
+
+.member-activities {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.activity-tag {
+  background-color: #e3f2fd;
+  color: #1976d2;
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: bold;
+}
